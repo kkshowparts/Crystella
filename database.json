@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rose Gold Ring",
+      "price": 299,
+      "category": "rings",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+      "description": "Beautiful rose gold ring with elegant design, perfect for any occasion.",
+      "stock": 50,
+      "rating": 4.8,
+      "reviews": 125,
+      "tags": [
+        "rose gold",
+        "ring",
+        "elegant",
+        "trending"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pearl Necklace",
+      "price": 499,
+      "category": "necklaces",
+      "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop",
+      "description": "Stunning pearl necklace that adds sophistication to any outfit.",
+      "stock": 30,
+      "rating": 4.9,
+      "reviews": 89,
+      "tags": [
+        "pearl",
+        "necklace",
+        "sophisticated",
+        "classic"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Crystal Earrings",
+      "price": 399,
+      "category": "earrings",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop",
+      "description": "Sparkling crystal earrings that catch the light beautifully.",
+      "stock": 75,
+      "rating": 4.7,
+      "reviews": 156,
+      "tags": [
+        "crystal",
+        "earrings",
+        "sparkling",
+        "party"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Diamond Bracelet",
+      "price": 599,
+      "category": "bracelets",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+      "description": "Elegant diamond bracelet with premium craftsmanship.",
+      "stock": 25,
+      "rating": 4.9,
+      "reviews": 67,
+      "tags": [
+        "diamond",
+        "bracelet",
+        "premium",
+        "luxury"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Gold Chain",
+      "price": 799,
+      "category": "necklaces",
+      "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=400&h=400&fit=crop",
+      "description": "Classic gold chain necklace for everyday elegance.",
+      "stock": 40,
+      "rating": 4.6,
+      "reviews": 98,
+      "tags": [
+        "gold",
+        "chain",
+        "classic",
+        "everyday"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Silver Anklet",
+      "price": 349,
+      "category": "anklets",
+      "image": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=400&h=400&fit=crop",
+      "description": "Delicate silver anklet perfect for summer styling.",
+      "stock": 60,
+      "rating": 4.5,
+      "reviews": 112,
+      "tags": [
+        "silver",
+        "anklet",
+        "delicate",
+        "summer"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ruby Ring",
+      "price": 899,
+      "category": "rings",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop",
+      "description": "Stunning ruby ring with vintage-inspired design.",
+      "stock": 15,
+      "rating": 4.9,
+      "reviews": 45,
+      "tags": [
+        "ruby",
+        "ring",
+        "vintage",
+        "premium"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Emerald Earrings",
+      "price": 649,
+      "category": "earrings",
+      "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop",
+      "description": "Elegant emerald earrings for special occasions.",
+      "stock": 20,
+      "rating": 4.8,
+      "reviews": 78,
+      "tags": [
+        "emerald",
+        "earrings",
+        "elegant",
+        "special"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "rings",
+      "name": "Rings",
+      "icon": "fas fa-ring",
+      "description": "Elegant rings for every finger"
+    },
+    {
+      "id": "necklaces",
+      "name": "Necklaces",
+      "icon": "fas fa-necktie",
+      "description": "Stunning necklaces to complement your look"
+    },
+    {
+      "id": "earrings",
+      "name": "Earrings",
+      "icon": "fas fa-earrings",
+      "description": "Beautiful earrings for all occasions"
+    },
+    {
+      "id": "bracelets",
+      "name": "Bracelets",
+      "icon": "fas fa-bracelet",
+      "description": "Charming bracelets for your wrist"
+    },
+    {
+      "id": "anklets",
+      "name": "Anklets",
+      "icon": "fas fa-circle",
+      "description": "Delicate anklets for your ankle"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "+91 98765 43210",
+      "address": "123 Fashion Street, Mumbai",
+      "orders": [
+        1,
+        3
+      ],
+      "wishlist": [
+        2,
+        5
+      ],
+      "created_at": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Anjali Patel",
+      "email": "anjali@example.com",
+      "phone": "+91 98765 43211",
+      "address": "456 Style Avenue, Delhi",
+      "orders": [
+        2,
+        4
+      ],
+      "wishlist": [
+        1,
+        7
+      ],
+      "created_at": "2024-01-20"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "products": [
+        {
+          "product_id": 1,
+          "quantity": 2,
+          "price": 299
+        },
+        {
+          "product_id": 3,
+          "quantity": 1,
+          "price": 399
+        }
+      ],
+      "total": 997,
+      "status": "delivered",
+      "shipping_address": "123 Fashion Street, Mumbai",
+      "payment_method": "credit_card",
+      "order_date": "2024-01-25",
+      "delivery_date": "2024-01-28"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "products": [
+        {
+          "product_id": 2,
+          "quantity": 1,
+          "price": 499
+        },
+        {
+          "product_id": 4,
+          "quantity": 1,
+          "price": 599
+        }
+      ],
+      "total": 1098,
+      "status": "shipped",
+      "shipping_address": "456 Style Avenue, Delhi",
+      "payment_method": "upi",
+      "order_date": "2024-01-30",
+      "delivery_date": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1,
+      "rating": 5,
+      "comment": "Beautiful ring! Perfect for my engagement party.",
+      "date": "2024-01-26"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "user_id": 2,
+      "rating": 4,
+      "comment": "Lovely necklace, great quality for the price.",
+      "date": "2024-01-31"
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "user_id": 1,
+      "rating": 5,
+      "comment": "Sparkles beautifully! Everyone compliments me.",
+      "date": "2024-01-27"
+    }
+  ],
+  "newsletter_subscribers": [
+    {
+      "id": 1,
+      "email": "priya@example.com",
+      "subscribed_at": "2024-01-15",
+      "active": true
+    },
+    {
+      "id": 2,
+      "email": "anjali@example.com",
+      "subscribed_at": "2024-01-20",
+      "active": true
+    }
+  ],
+  "contact_messages": [
+    {
+      "id": 1,
+      "name": "Riya Singh",
+      "email": "riya@example.com",
+      "message": "Do you have any wedding jewelry collections?",
+      "date": "2024-01-28",
+      "status": "read"
+    },
+    {
+      "id": 2,
+      "name": "Meera Kapoor",
+      "email": "meera@example.com",
+      "message": "I love your designs! When will you have new arrivals?",
+      "date": "2024-01-29",
+      "status": "read"
+    },
+    {
+      "id": 3,
+      "name": "aryan",
+      "email": "muhammadmushafkhan83@gmail.com",
+      "message": "i got ring\n",
+      "date": "2025-06-18",
+      "status": "read"
+    }
+  ],
+  "settings": {
+    "site_name": "Crystella",
+    "contact_email": "info@sparkleandshine.com",
+    "contact_phone": "+91 98765 43210",
+    "address": "123 Jewelry Street, Fashion District, Mumbai",
+    "shipping_cost": 99,
+    "free_shipping_threshold": 999,
+    "tax_rate": 0.18,
+    "currency": "₹",
+    "currency_code": "INR"
+  }
+}
